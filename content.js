@@ -34,7 +34,6 @@
                 let like = allPosts[randomIndex].querySelector(".react-button__trigger");
                 if (like) {
                     like.click();
-                    console.log("Liked post at index: " + randomIndex);
                     likeProcessed++;
                 }
             }
@@ -53,7 +52,6 @@
                             let postBtn = allPosts[randomIndex].querySelector(".comments-comment-box__submit-button--cr");
                             if (postBtn) {
                                 postBtn.click();
-                                console.log("Commented on post at index: " + randomIndex);
                                 commentProcessed++;
                             }
                         }
