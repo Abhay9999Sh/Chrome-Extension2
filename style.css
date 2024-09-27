@@ -1,0 +1,33 @@
+body {
+    width: 300px;
+    height: 150px;
+}
+
+button {
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+
+input {
+    width: 300px;
+    margin: 8px 0;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+input:focus[type="number"] {
+    outline: none;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.hidden {
+    display: none;
+}
